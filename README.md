@@ -5,7 +5,7 @@ Uma landing page moderna e funcional criada para apresentar o serviço **BotZap 
 ## 🔗 Deploy
 
 Acesse o projeto online aqui:  
-👉 [https://seuusuario.github.io/botzap-express]([https://seuusuario.github.io/botzap-express](https://botzapexpress.netlify.app/))
+👉 [https://botzapexpress.netlify.app/](https://botzapexpress.netlify.app/)
 
 ---
 
