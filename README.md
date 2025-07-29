@@ -2,7 +2,7 @@
 
 Uma landing page moderna e funcional criada para apresentar o **BotZap Express**, que permite ao usuário escolher um plano de automação via WhatsApp e enviar uma **mensagem personalizada** direto para o número de atendimento.
 
-## 🔗 Deploy
+🔗 Deploy
 Acesse o projeto online aqui:  
  [https://botzapexpress.netlify.app/](https://botzapexpress.netlify.app/)
 ---
