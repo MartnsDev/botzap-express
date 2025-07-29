@@ -16,7 +16,7 @@ Acesse o projeto online aqui:
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - HTML5
 - CSS3
