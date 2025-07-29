@@ -4,10 +4,10 @@ Uma landing page moderna e funcional criada para apresentar o **BotZap Express**
 
 ## 🔗 Deploy
 Acesse o projeto online aqui:  
-👉 [https://botzapexpress.netlify.app/](https://botzapexpress.netlify.app/)
+ [https://botzapexpress.netlify.app/](https://botzapexpress.netlify.app/)
 ---
 
-## 🧩 Funcionalidades
+##  Funcionalidades
 
 -  Escolher o plano (Básico, Intermediário, Premium)
 -  Botão que redireciona para o WhatsApp com a mensagem pronta
