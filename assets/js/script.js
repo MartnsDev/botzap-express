@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Ativar perguntas frequentes
     const faqQuestions = document.querySelectorAll('.faq-question');
     
     if (faqQuestions.length === 0) {
@@ -16,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
             
-            // Fechar outros itens ativos
             document.querySelectorAll('.faq-item.active').forEach(item => {
                 if(item !== faqItem) {
                     item.classList.remove('active');
@@ -24,15 +22,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     if (activeQuestion) activeQuestion.classList.remove('active');
                 }
             });
-            
-            // Alternar o item atual
             faqItem.classList.toggle('active');
             this.classList.toggle('active');
         });
     });
 });
 
-    // Animação de scroll
     const animateElements = document.querySelectorAll('.animate');
     
     function checkVisibility() {
@@ -48,13 +43,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Verificar elementos visíveis na carga inicial da página
     checkVisibility();
     
-    // Verificar elementos visíveis durante o scroll
     window.addEventListener('scroll', checkVisibility);
-    
-    // Efeito de scroll suave para links internos
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
@@ -75,8 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-    
-    // Efeito no cabeçalho durante o scroll
+    Krante o scroll
     const header = document.querySelector('header');
     
     window.addEventListener('scroll', () => {
@@ -89,7 +79,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // Contador de estatísticas (opcional)
     function animateCounter(el, start, end, duration) {
         let startTime = null;
         
@@ -109,7 +98,6 @@ document.addEventListener('DOMContentLoaded', function() {
         requestAnimationFrame(animation);
     }
     
-    // Inicializar contadores se existirem elementos com a classe 'counter'
     const counters = document.querySelectorAll('.counter');
     if(counters.length > 0) {
         const counterObserver = new IntersectionObserver((entries, observer) => {
@@ -128,7 +116,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Detecção de dispositivo móvel para ajustes de layout
     const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     if(isMobile) {
         document.body.classList.add('mobile-device');
