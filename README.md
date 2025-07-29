@@ -9,7 +9,7 @@ Acesse o projeto online aqui:
 
 ##  Funcionalidades
 
--  Escolher o plano (Básico, Intermediário, Premium)
+-  Escolher o plano Básico, Intermediário ou Premium
 -  Botão que redireciona para o WhatsApp com a mensagem pronta
 -  Design simples, limpo e responsivo
 -  fiz para automação de vendas, atendimentos e suporte
